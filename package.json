@@ -1,0 +1,22 @@
+{
+  "name": "playwright_automation_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akash20lpa/Playwright_automation_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akash20lpa/Playwright_automation_practice/issues"
+  },
+  "homepage": "https://github.com/akash20lpa/Playwright_automation_practice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  }
+}
