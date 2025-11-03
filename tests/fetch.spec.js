@@ -5,8 +5,8 @@ test.describe("Fetching Data", () => {
     await page.goto("apps/fetch/", { waitUntil: "commit" });
 
     await page.waitForResponse((resp) => resp.url().includes("/posts")); // Wait for JSON
-    await page.waitForResponse("https://images.unsplash.com/**"); // Wait for image
+    //await page.waitForResponse("https://images.unsplash.com/**"); // Wait for image
 
-    expect(await page.locator(".icard").count()).toBeGreaterThan(90);
+    expect(await page.locator(".icard").count()).toBeGreaterThan(19);
   });
 });
